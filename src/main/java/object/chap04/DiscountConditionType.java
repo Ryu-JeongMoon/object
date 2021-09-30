@@ -1,4 +1,4 @@
-package object.chap05;
+package object.chap04;
 
 public enum DiscountConditionType {
     SEQUENCE,
