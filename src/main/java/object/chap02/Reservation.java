@@ -1,5 +1,9 @@
 package object.chap02;
 
+import lombok.NoArgsConstructor;
+import object.chap04.Customer;
+
+@NoArgsConstructor
 public class Reservation {
 
     private Customer customer;

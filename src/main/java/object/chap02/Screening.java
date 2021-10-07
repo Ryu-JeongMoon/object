@@ -1,6 +1,7 @@
 package object.chap02;
 
 import java.time.LocalDateTime;
+import object.chap04.Customer;
 
 public class Screening {
 
