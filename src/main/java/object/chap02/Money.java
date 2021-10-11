@@ -1,7 +1,9 @@
 package object.chap02;
 
 import java.math.BigDecimal;
+import lombok.ToString;
 
+@ToString
 public class Money {
 
     public static final Money ZERO = Money.wons(0);
