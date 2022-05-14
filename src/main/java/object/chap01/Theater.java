@@ -2,15 +2,15 @@ package object.chap01;
 
 public class Theater {
 
-    private TicketSeller ticketSeller;
+	private final TicketSeller ticketSeller;
 
-    public Theater(TicketSeller ticketSeller) {
-        this.ticketSeller = ticketSeller;
-    }
+	public Theater(TicketSeller ticketSeller) {
+		this.ticketSeller = ticketSeller;
+	}
 
-    public void enter(Audience audience) {
-        ticketSeller.sellTo(audience);
-    }
+	public void enter(Audience audience) {
+		ticketSeller.sellTo(audience);
+	}
 }
 
 /*

@@ -1,15 +1,15 @@
 package object.chap02;
 
-public class SequenceCondition implements DiscountCondition{
+public class SequenceCondition implements DiscountCondition {
 
-    private int sequence;
+	private final int sequence;
 
-    public SequenceCondition(int sequence) {
-        this.sequence = sequence;
-    }
+	public SequenceCondition(int sequence) {
+		this.sequence = sequence;
+	}
 
-    @Override
-    public boolean isSatisfiedBy(Screening screening) {
-        return false;
-    }
+	@Override
+	public boolean isSatisfiedBy(Screening screening) {
+		return false;
+	}
 }

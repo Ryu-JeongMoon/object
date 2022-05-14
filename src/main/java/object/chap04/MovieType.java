@@ -1,7 +1,7 @@
 package object.chap04;
 
 public enum MovieType {
-    AMOUNT_DISCOUNT,
-    PERCENT_DISCOUNT,
-    NONE_DISCOUNT
+	AMOUNT_DISCOUNT,
+	PERCENT_DISCOUNT,
+	NONE_DISCOUNT
 }

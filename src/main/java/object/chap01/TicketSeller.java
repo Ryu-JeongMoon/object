@@ -2,15 +2,15 @@ package object.chap01;
 
 public class TicketSeller {
 
-    private TicketOffice ticketOffice;
+	private final TicketOffice ticketOffice;
 
-    public TicketSeller(TicketOffice ticketOffice) {
-        this.ticketOffice = ticketOffice;
-    }
+	public TicketSeller(TicketOffice ticketOffice) {
+		this.ticketOffice = ticketOffice;
+	}
 
-    public void sellTo(Audience audience) {
-        ticketOffice.sellTicketTo(audience);
-    }
+	public void sellTo(Audience audience) {
+		ticketOffice.sellTicketTo(audience);
+	}
 }
 
 /*

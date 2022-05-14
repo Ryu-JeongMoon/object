@@ -6,15 +6,15 @@ import object.chap04.Customer;
 @NoArgsConstructor
 public class Reservation {
 
-    private Customer customer;
-    private Screening screening;
-    private Money fee;
-    private int audienceCount;
+	private final Customer customer;
+	private final Screening screening;
+	private final Money fee;
+	private final int audienceCount;
 
-    public Reservation(Customer customer, Screening screening, Money fee, int audienceCount) {
-        this.customer = customer;
-        this.screening = screening;
-        this.fee = fee;
-        this.audienceCount = audienceCount;
-    }
+	public Reservation(Customer customer, Screening screening, Money fee, int audienceCount) {
+		this.customer = customer;
+		this.screening = screening;
+		this.fee = fee;
+		this.audienceCount = audienceCount;
+	}
 }

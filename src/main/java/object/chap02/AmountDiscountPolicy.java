@@ -2,15 +2,15 @@ package object.chap02;
 
 public class AmountDiscountPolicy extends DefaultDiscountPolicy {
 
-    private Money discountAmount;
+	private final Money discountAmount;
 
-    public AmountDiscountPolicy(Money discountAmount, DiscountCondition... discountConditions) {
-        super(discountConditions);
-        this.discountAmount = discountAmount;
-    }
+	public AmountDiscountPolicy(Money discountAmount, DiscountCondition... discountConditions) {
+		super(discountConditions);
+		this.discountAmount = discountAmount;
+	}
 
-    @Override
-    protected Money getDiscountAmount(Screening screening) {
-        return discountAmount;
-    }
+	@Override
+	protected Money getDiscountAmount(Screening screening) {
+		return discountAmount;
+	}
 }

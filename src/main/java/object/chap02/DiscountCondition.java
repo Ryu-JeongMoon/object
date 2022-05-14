@@ -2,5 +2,5 @@ package object.chap02;
 
 public interface DiscountCondition {
 
-    boolean isSatisfiedBy(Screening screening);
+	boolean isSatisfiedBy(Screening screening);
 }

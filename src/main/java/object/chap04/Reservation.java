@@ -8,9 +8,9 @@ import object.chap02.Money;
 @AllArgsConstructor
 public class Reservation {
 
-    private Customer customer;
-    private Screening screening;
-    private Money fee;
-    private int audienceCount;
+	private Customer customer;
+	private Screening screening;
+	private Money fee;
+	private int audienceCount;
 
 }
